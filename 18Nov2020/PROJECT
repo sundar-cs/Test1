@@ -1,0 +1,14 @@
+domain: example.com
+layout: go.kubebuilder.io/v2
+projectName: nov182020
+repo: github.com/sundar-cs/TEST1
+resources:
+- group: cache
+  kind: Memcached
+  version: v1
+- group: cache
+  kind: Cpucached
+  version: v1
+version: 3-alpha
+plugins:
+  go.sdk.operatorframework.io/v2-alpha: {}
